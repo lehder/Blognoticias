@@ -1,0 +1,150 @@
+body {
+    /* background: black; */
+    color: #146C77;
+    font-size: 20px;
+    margin: 20px;
+    font-family: Arial, ' source sans pro', sans-serif;
+    background: #2980B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.name {
+    /*  border: 1px solid red; */
+    padding: 15px;
+    display: inline-block;
+}
+
+.name h1 {
+    font-size: 3em;
+}
+
+.header {
+    /* border: 1px solid whitesmoke; */
+    padding top: 30px;
+    padding: 10px;
+    margin-bottom: inherit;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header a {
+    color: #146C77;
+    text-decoration: none;
+}
+
+.menu {
+    height: inherit;
+    margin-top: 20px;
+    letter-spacing: -.2px;
+    line-height: 1.5;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+    font-size: 40px;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 40px;
+}
+
+.container-img {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 10px;
+}
+
+.imagen {
+    /* border: 1px solid red; */
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.hero {
+    /* border: 1px solid red; */
+}
+
+.description {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    margin: 10px 450px 40px 50px;
+}
+
+.articulo-titulares {
+    padding-bottom: 0.625rem;
+}
+
+.articulo-especial .articulo-titulares .articulo-titulo {
+    line-height: 110%;
+    font-weight: 100;
+    color: #000;
+    margin: 1.000rem auto 0.875rem auto;
+    letter-spacing: -1px;
+    text-align: center;
+    max-width: 52.500rem;
+    text-transform: none;
+    width: 95%;
+    font-style: normal;
+}
+
+h1 {
+    font-family: Majerit, serif;
+}
+
+.gr-map {
+    width: 100%;
+    max-width: 2200px;
+    margin: 0 auto;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 55.25%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.alerta {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    margin: 50px;
+}
+
+.alerta-img {
+    margin: 0;
+    padding: 10px;
+}
+
+.image {
+    border-radius: 10px;
+    object-fit: cover;
+}
