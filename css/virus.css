@@ -1,9 +1,17 @@
-body {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    padding: 20px 35px;
+    border: 10px solid red;
     /* background: black; */
     color: #000;
     /*color: #146C77;*/
     font-size: 20px;
-    margin: 20px;
     font-family: Arial, 'helvetica ', sans-serif;
     background: #f2f3f4;
     /*background: #2980B9;
@@ -156,14 +164,14 @@ input {
 
 .hero-description {
     /* border: 1px solid whitesmoke; */
-    padding: 20px;
+    padding: 5px;
     margin: 0px 10px 10px 10px;
     display: inline-block;
 }
 
 p {
-    height: 380px;
-    width: 800px;
+    height: 550px;
+    width: 600px;
 }
 
 .aside {
@@ -174,6 +182,8 @@ p {
     min-height: 525px;
     /* float: right; */
     position: absolute;
+    margin: 10px;
+    padding-left: 128px;
 }
 
 h2 {
@@ -301,8 +311,8 @@ h1 {
 }
 
 p {
-    height: 380px;
-    width: 800px;
+    height: 350px;
+    width: 600px;
 }
 
 .aside-alerta {
@@ -310,6 +320,7 @@ p {
     width: 370px;
     display: inline-block;
     min-height: 525px;
+    margin: 10px;
     float: right;
     position: absolute;
 }
